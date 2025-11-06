@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Player']
+
+roboflow:
+  workspace: sltc-vcvy9
+  project: batminton-player-tracking-fmgjd
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sltc-vcvy9/batminton-player-tracking-fmgjd/dataset/2
